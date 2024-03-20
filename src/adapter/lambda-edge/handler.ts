@@ -86,7 +86,7 @@ export interface Callback {
 }
 
 // https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-generating-http-responses-in-requests.html#lambda-generating-http-responses-programming-model
-interface CloudFrontResult {
+export interface CloudFrontResult {
   status: string
   statusDescription?: string
   headers?: {
